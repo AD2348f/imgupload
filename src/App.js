@@ -1,5 +1,4 @@
 import './App.css';
-import 'react-dropzone-uploader/dist/styles.css'
 import axios from 'axios';
 import React, {useState} from 'react';
 
