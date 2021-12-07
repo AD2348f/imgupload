@@ -44,8 +44,7 @@ const loadUser = async() => {axios.get('https://backend.staffbase.com/api/users'
                   .then((response) => {
                     const loadedUser = response.data.data;
                     setUser(loadedUser)
-                    setLoader (true)
-                    // console.log(user)
+                    setLoader (true)                    
                   }) 
                   .catch((error) => {
                     console.error(error)
